@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity2">
+    <FrameLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <ImageView
+            android:layout_width="440dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pink" />
+
+        <TextView
+
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="120dp"
+            android:background="#FFB6C1"
+            android:gravity="center"
+            android:text="purple"
+            android:textColor="#C71585"
+            android:textSize="36sp" />
+
+
+        <TextView
+
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#FFB6C1 "
+            android:typeface="serif"
+            android:gravity="center"
+            android:text="marigold"
+            android:textColor="#C71585"
+            android:textSize="36sp" />
+
+        <TextView
+
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+
+            android:background="#FFB6C1"
+            android:gravity="center"
+            android:text="amethyst"
+            android:textColor="#C71585"
+            android:textSize="36sp" />
+        <TextView
+
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+          android:background="#FFB6C1"
+            android:gravity="center"
+            android:text="pink"
+            android:textColor="#C71585"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:typeface="serif"
+            android:gravity="center"
+            android:text="BABY  SHOES"
+            android:textColor="#C71585"
+            android:textSize="20pt" />
+
+
+    </FrameLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
